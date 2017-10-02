@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity">
+
+<!--Settings actionbar-->
+    <item android:id="@+id/action_settings"
+          android:title="@string/settings"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+
+    <!--Language actionbar-->
+    <item android:id="@+id/action_language"
+          android:title="@string/language_txt"
+          android:showAsAction="never" />
+</menu>

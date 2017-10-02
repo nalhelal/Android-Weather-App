@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name="app_name">برنامج الطقس</string>
+        <string name="refresh">تحديث</string>
+        <string name="settings">الاعدادات</string>
+        <string name="thumbnail">thumbnail</string>
+         <string name="check_weather_gps">Get Weather using GPS</string>
+
+
+        <string name="zip_text">ادخل الرمز البريدي</string>
+        <string name="zipcode_key" translatable="false">zipcode</string>
+        <string name="zipcode_default" translatable="false">22202</string>
+
+
+
+
+        <string name="unit_txt">اختر وحدة القياس</string>
+        <string name="units_key" translatable="false">units </string>
+        <string name="units_default" translatable="false">metric</string>
+
+
+
+
+    <string name="units_metric_value">metric</string>
+    <string name="units_imperial_value">imperial</string>
+
+    <string name="units_metric_title">مؤية</string>
+    <string name="units_imperial_title">فهرنهايت</string>
+
+    <string-array name="units_list_values">
+        <item>@string/units_imperial_value</item>
+        <item>@string/units_metric_value</item>
+    </string-array>
+
+    <string-array name="units_list_titles">
+        <item>@string/units_imperial_title</item>
+        <item>@string/units_metric_title</item>
+    </string-array>
+
+
+
+
+
+    <string name="language_txt">اختر لغة</string>
+        <string name="language_key" translatable="false">Language</string>
+        <string name="language_english" translatable="false" >English</string>
+        <string name="language_arabic" >عربي</string>
+    <string-array name="pref_language_list_title">
+        <item>@string/language_key</item>
+        <item>@string/language_english</item>
+        <item>@string/language_arabic</item>
+    </string-array>
+
+
+    <string-array name="pref_language_list_values">
+        <item>@string/language_key</item>
+        <item>@string/language_english</item>
+        <item>@string/language_arabic</item>
+        </string-array>
+
+
+
+
+        <string name="days_txt">عدد الايام</string>
+        <string name="days_key" translatable="false">Days</string>
+        <string name="pref_1">1</string>
+        <string name="pref_2">2</string>
+        <string name="pref_3">3</string>
+        <string name="pref_4">4</string>
+        <string name="pref_5">5</string>
+        <string name="days_default" translatable="false">3</string>
+        <string name="imageview">Imageview</string>
+        <string name="weatherview">WeatherView</string>
+        <string name="dateview">DateView</string>
+        <string name="gps_search">حدد موقعك </string>
+        <string name="option_search">للبحث بالرمز البريدي اذهب للاعدادات</string>
+
+        <string-array name="days_arrays_title">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+
+        </string-array>
+
+        <string-array name="days_arrays_values">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+
+        </string-array>
+
+
+
+
+
+</resources>

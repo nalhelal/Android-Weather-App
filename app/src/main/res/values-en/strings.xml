@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Weather App</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">settings</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="check_weather_gps">Get Weather using GPS</string>
+
+
+    <string name="zip_text">Search by zip code</string>
+    <string name="zipcode_key" translatable="false">zipcode</string>
+    <string name="zipcode_default" translatable="false">22202</string>
+
+
+
+
+    <string name="unit_txt">Choose Unit</string>
+    <string name="units_key">units</string>
+    <string name="units_default">metric</string>
+
+
+    <string name="units_metric_value">metric</string>
+    <string name="units_imperial_value">imperial</string>
+
+    <string name="units_metric_title">Celsius</string>
+    <string name="units_imperial_title">Fahrenheit</string>
+
+    <string-array name="units_list_values">
+        <item>@string/units_imperial_value</item>
+        <item>@string/units_metric_value</item>
+    </string-array>
+
+    <string-array name="units_list_titles">
+    <item>@string/units_imperial_title</item>
+    <item>@string/units_metric_title</item>
+    </string-array>
+
+
+
+
+    <string name="language_txt">Choose Language</string>
+    <string name="language_key">Language</string>
+    <string name="language_english" >English</string>
+    <string name="language_arabic" >Arabic</string>
+    <string-array name="pref_language_list_title">
+        <item>@string/language_key</item>
+        <item>@string/language_english</item>
+        <item>@string/language_arabic</item>
+    </string-array>
+
+
+    <string-array name="pref_language_list_values">
+        <item>@string/language_key</item>
+        <item>@string/language_english</item>
+        <item>@string/language_arabic</item>
+    </string-array>
+
+
+
+
+    <string name="days_txt">Select weatherModel days</string>
+    <string name="days_key">Days</string>
+    <string name="pref_1">1</string>
+    <string name="pref_2">2</string>
+    <string name="pref_3">3</string>
+    <string name="pref_4">4</string>
+    <string name="pref_5">5</string>
+    <string name="pref_6">6</string>
+    <string name="pref_7">7</string>
+    <string name="days_default">3</string>
+    <string name="imageview">Imageview</string>
+    <string name="weatherview">WeatherView</string>
+    <string name="dateview">DateView</string>
+    <string name="gps_search">Based on Location</string>
+    <string name="option_search">Go to settings to search with Zipcode</string>
+
+    <string-array name="days_arrays_title">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="days_arrays_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+
+
+
+
+
+</resources>

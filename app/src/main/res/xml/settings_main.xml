@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--The Settings prefrence XML layout-->
+    <!--To save the values in the sharedpreference-->
+
+
+    <!--Zipcode search-->
+    <EditTextPreference
+        android:title="@string/zip_text"
+        android:key="@string/zipcode_key"
+        android:defaultValue="@string/zipcode_default"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:singleLine="true"
+        android:maxLines="1"/>
+
+    <!--To choose a unit-->
+    <ListPreference
+        android:key="@string/units_key"
+        android:title="@string/unit_txt"
+        android:defaultValue="@string/units_default"
+        android:entries="@array/units_list_titles"
+        android:entryValues="@array/units_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <!--Choose number of days to view-->
+    <ListPreference
+        android:title="@string/days_txt"
+        android:key="@string/days_key"
+        android:defaultValue="@string/days_default"
+        android:entries="@array/days_arrays_title"
+        android:entryValues="@array/days_arrays_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+
+
+</PreferenceScreen>
+
